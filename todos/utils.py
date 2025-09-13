@@ -20,3 +20,25 @@ def find_todo_by_id(todo_id, todos):
 def delete_todo_by_id(todo_id, lst):
     lst['todos'] = [todo for todo in lst['todos'] if todo['id'] != todo_id]
     return None
+
+def mark_all_completed(lst):
+    for todo in lst['todos']:
+        todo['completed'] = True
+    return None
+
+def todos_remaining(lst):
+    return sum(1 for todo in lst['todos'] if not todo['completed'])
+
+def is_list_completed(lst):
+    return len(lst['todos']) > 0 and todos_remaining(lst) == 0
+
+def is_todo_completed(todo):
+    return todo['completed']
+
+def sort_items(items, select_completed):
+    sorted_lists = sorted(items, key=lambda lst: lst['title'].lower())
+
+    incomplete_lists = [item for item in sorted_lists if not select_completed(item)]
+    complete_lists = [item for item in sorted_lists if select_completed(item)]
+
+    return  incomplete_lists + complete_lists
