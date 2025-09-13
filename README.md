@@ -4,8 +4,6 @@ A simple and user-friendly To-Do List application powered by Flask. Easily add, 
 
 ![App Demo](Demo.gif)
 
-**Live Demo:** [Click Here](https://to-do-app-0jw9.onrender.com)
-
 ## Features
 
 - Add new tasks with ease
@@ -71,6 +69,7 @@ Flask_to-do/
 ## License
 
 [MIT](LICENSE)
+
 
 
 
