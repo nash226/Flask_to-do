@@ -47,13 +47,6 @@ https://github.com/user-attachments/assets/5d403765-ad19-4601-a5c5-6e9f30c91b85
 - Mark tasks as complete by clicking the checkbox.
 - Remove tasks with the delete button.
 
-## Deployment
-
-This app is live at:  
-[https://to-do-app-0jw9.onrender.com](https://to-do-app-0jw9.onrender.com)
-
-You can also deploy your own copy using platforms like [Render](https://render.com), [Heroku](https://heroku.com), or [Vercel](https://vercel.com).
-
 ## Folder Structure
 
 ```
@@ -69,6 +62,7 @@ Flask_to-do/
 ## License
 
 [MIT](LICENSE)
+
 
 
 
