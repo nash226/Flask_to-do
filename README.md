@@ -2,7 +2,7 @@
 
 A simple and user-friendly To-Do List application powered by Flask. Easily add, manage, and organize your tasks from any device.
 
-![App Demo](Demo.gif)
+https://github.com/user-attachments/assets/5d403765-ad19-4601-a5c5-6e9f30c91b85
 
 ## Features
 
@@ -69,6 +69,7 @@ Flask_to-do/
 ## License
 
 [MIT](LICENSE)
+
 
 
 
